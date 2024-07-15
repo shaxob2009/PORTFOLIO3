@@ -1,0 +1,129 @@
+section {
+  background-color: var(--colorBg);
+}
+.line-img-lex {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.section-flex-con {
+  display: flex;
+  padding: 96px 0;
+  justify-content: center;
+  gap: 280px;
+}
+.line-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.section-h1 {
+  display: flex;
+  margin: 32px 96px 16px 96px;
+  max-width: 481px;
+  font-family: "Roboto";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  text-align: left;
+}
+.section-lorem {
+  display: flex;
+  margin: 0 96px 16px 96px;
+  max-width: 481px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: var(--colorBlack);
+}
+.talk {
+  max-width: 279px;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: left;
+}
+.email {
+  max-width: 279px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  padding: 10px 0 16px 0;
+  color: var(--colorBlack);
+}
+.input-flex {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 96px 0 32px 0;
+}
+.imgs-aside {
+  display: flex;
+  gap: 24px;
+  padding-top: 32px;
+}
+.input-flex-two {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.input-text {
+  background-color: var(--colorWhite);
+  border: 1px solid var(--colorBlack);
+  color: var(--colorBlack);
+}
+.input-btn {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+  color: var(--colorBlack);
+}
+.massage-in {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+.massege {
+  background-color: var(--colorWhite);
+  padding: 20px 900px 200px 20px;
+  border: 1px solid var(--colorBlack);
+  color: var(--colorBlack);
+}
+button {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: center;
+  color: var(--colorWhite);
+  padding: 16px 32px;
+  background-color: var(--colorGreen);
+  border: none;
+  border-radius: 4px;
+}
+.in-btn {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0 120px 0;
+}
+button:hover {
+  transition: 1s;
+  box-shadow: 1px 8px 30px 5px aqua;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.map {
+  display: flex;
+  justify-content: center;
+}

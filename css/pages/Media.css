@@ -1,0 +1,91 @@
+header {
+  background-color: var(--colorBg);
+}
+.right-box {
+  background-color: var(--colorWhite);
+  border-radius: 12px;
+}
+.header-flex-hed {
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  padding: 96px 0;
+}
+.header-h2 {
+  max-width: 496px;
+  font-family: "Roboto";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  text-align: left;
+  margin: 32px 0 16px 96px;
+}
+.header-h5 {
+  max-width: 496px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  margin: 0 0 32px 96px;
+}
+.header-btn-link {
+  display: flex;
+  padding: 16px 32px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: right;
+  cursor: pointer;
+  background-color: var(--colorGreen);
+  color: var(--colorWhite);
+  border: none;
+  border-radius: 4px;
+  margin-left: 96px;
+}
+.header-btn-link:hover {
+  background-color: blue;
+  box-shadow: 5px 10px 30px 5px red;
+  transition: 1s;
+}
+.right-box-flex {
+  max-width: 512px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 56px 24px 24px;
+}
+.right-box-flex-two {
+  max-width: 512px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0px 56px 24px 24px;
+}
+.right-box-flex-thre {
+  max-width: 512px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0px 56px 24px 24px;
+}
+.aside-end-h1-cen {
+  padding-top: 96px;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: center;
+}
+.center-p {
+  display: flex;
+  margin: 0 auto;
+  padding: 16px 0 48px 0;
+  max-width: 450px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+}
